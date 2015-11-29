@@ -1,0 +1,30 @@
+"*":
+  "exception-reporting":
+    userId: "95a998a2-0ac8-7bee-573b-bf7286fbd685"
+  welcome:
+    showOnStartup: false
+  core:
+    themes: [
+      "one-dark-ui"
+      "cobalt2-syntax"
+    ]
+    excludeVcsIgnoredPaths: false
+    audioBeep: false
+    disabledPackages: [
+      "linter-eslint"
+    ]
+  editor:
+    invisibles: {}
+    tabLength: 4
+    tabType: "soft"
+    lineHeight: 2
+    preferredLineLength: 120
+  tabs:
+    usePreviewTabs: true
+  linter:
+    errorPanelHeight: 24
+  "linter-eslint":
+    useGlobalEslint: true
+    globalNodePath: "/Users/sebastiandedeyne/.npm-packages"
+  "mocha-test-runner":
+    options: "--compilers js:mocha-babel"
